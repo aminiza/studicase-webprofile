@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile me</title>
+    <style>
+      body {
+        padding: 0px 10px 0px 10px;
+      }
+
+      .biodata ul {
+        list-style: none;
+        padding-left: 0;
+      }
+      .biodata li {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 8px;
+      }
+      .biodata li b {
+        display: inline-block;
+        width: 100px;
+      }
+      .biodata li span {
+        display: inline-block;
+        width: 10px;
+        text-align: center;
+        margin-right: 8px;
+      }
+
+      .riwayat {
+        margin-bottom: 10px;
+      }
+      .riwayat table {
+        border-collapse: collapse;
+        width: 500px;
+      }
+      .riwayat th,
+      .riwayat td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: left;
+      }
+      .riwayat tr th[scope="col"] {
+        background-color: #505050;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Biodata saya</h1>
+    <hr />
+    <div style="width: 300px; height: 350px">
+      <img
+        style="width: auto; height: 100%"
+        src="img/face-swap.png"
+        alt="profile image"
+      />
+    </div>
+    <div class="biodata">
+      <ul>
+        <li><b>Nama</b><span>:</span>M. al amin</li>
+        <li><b>Alamat</b><span>:</span> Babadan, Patianrowo, Nganjuk</li>
+        <li><b>Jenis Kelamin</b><span>:</span>Pria</li>
+        <li><b>Umur</b><span>:</span> 20 tahun</li>
+        <li><b>Agama</b><span>:</span> Islam</li>
+        <li><b>Minat</b><span>:</span> Belajar Coding</li>
+      </ul>
+    </div>
+    <div class="riwayat">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Nama Sekolah</th>
+            <th scope="col">Tahun Kelulusan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>MI Sugihwaras</td>
+            <td>2006-2012</td>
+          </tr>
+          <tr>
+            <td>MTS Sugihwaras</td>
+            <td>2012-2015</td>
+          </tr>
+          <tr>
+            <td>SMK AL-KHOIRIYAH Baron</td>
+            <td>2015-2018</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <a style="text-decoration: none" href="home.html">back to home</a>
+  </body>
+</html>
